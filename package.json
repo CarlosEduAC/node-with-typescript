@@ -1,8 +1,10 @@
 {
   "name": "template-node-typescript",
   "version": "1.0.0",
+  "description": "## Descrição do que faz a aplicação ##",
+  "author": "Carlos Eduardo Alves Cardoso",
   "main": "index.js",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
@@ -10,11 +12,13 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-async-errors": "^3.1.1"
+    "express-async-errors": "^3.1.1",
+    "pino": "^6.11.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
+    "@types/pino": "^6.3.6",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",
